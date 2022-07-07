@@ -26,6 +26,9 @@ Success rate table:
 
 ### Usage
 
+If you wish to reproduce figures and table, please unzip `aggregated_data.csv.zip` first and then run 
+[Process MARL results.ipynb](Process%20MARL%20results.ipynb) jupyter notebook file.
+
 
 If you wish to load your own data and process them for plotting, try to modify 
 [Preprocess raw data (You don't need to read this).ipynb](Preprocess%20raw%20data%20(You%20don't%20need%20to%20read%20this).ipynb) 
