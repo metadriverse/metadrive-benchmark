@@ -9,9 +9,10 @@
 
 ### Results
 
-Curriculum learning learning curve:
+Learning curve:
 
-![](figs/cl_result.pdf)
+![](figs/learning_curve.png)
+![](figs/cl_learning_curve.png)
 
 
 ### Usage
