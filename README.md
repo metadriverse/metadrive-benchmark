@@ -8,7 +8,7 @@
 Benchmark result of different RL algorithms on [MetaDrive](https://github.com/metadriverse/metadrive) environments, including Multi-agent RL (IPPO, centralized critics, CoPO).
 
 
-### Usage
+## Usage
 
 Please setup via:
 
@@ -27,6 +27,6 @@ Here are some specification that might be helpful to you:
 
 
 
-### Reference
+## Reference
 
 Please cite us via: https://github.com/metadriverse/metadrive#-references

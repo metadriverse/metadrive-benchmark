@@ -7,7 +7,7 @@
 * Related project: [CoPO webpage](https://decisionforce.github.io/CoPO/)
 
 
-### Results
+## Results
 
 Learning curve:
 
@@ -24,7 +24,7 @@ Success rate table:
 | CL           | 66.45 (10.50) | 52.99 (22.86) | 67.90 (15.00)  | 81.51 (4.49) | 16.17 (8.94)  | 77.96 (6.95) |
 | CoPO         | 73.39 (16.65) | 79.66 (13.92) | 77.79 (2.95)   | 73.65 (4.61) | 20.98 (3.55)  | 80.24 (4.21) |
 
-### Usage
+## Usage
 
 If you wish to reproduce figures and table, please unzip `aggregated_data.csv.zip` first and then run 
 [Process MARL results.ipynb](Process%20MARL%20results.ipynb) jupyter notebook file.
@@ -37,7 +37,7 @@ For your information, my file structure is as follows:
 
 ![](figs/file_structure.png)
 
-### Reference
+## Reference
 
 Please cite MetaDrive paper via: https://github.com/metadriverse/metadrive#-references
 
