@@ -1,6 +1,7 @@
 # MetaDrive Benchmark Results
 
 ```diff
+Changelog:
 + July 7, 2022: Initialize this project and upload MARL results.
 ```
 
@@ -19,11 +20,9 @@ cd metadrive-benchmark
 pip install matplotlib seaborn jupyter notebook
 ```
 
-You can find formal experiment results in several MetaDrive environments in corresponding folders.
+You can find formal experiment results in several MetaDrive environments in corresponding folders:
 
-Here are some specification that might be helpful to you:
-
-* [./MARL](./MARL)
+* [metadrive-benchmark/MARL](./MARL) - Multi-agent Reinforcement Learning 
 
 
 

@@ -6,6 +6,11 @@
 * Training code: [CoPO repo](https://github.com/decisionforce/CoPO)
 * Related project: [CoPO webpage](https://decisionforce.github.io/CoPO/)
 
+**To DO:**
+
+- [ ] Update checkpoints
+- [ ] Introduce script to evaluate populations and draw results (Radar figure)
+- [ ] Deliver this page to other researchers that are looking for this
 
 ## Results
 
@@ -26,7 +31,7 @@ Success rate table:
 
 ## Usage
 
-If you wish to reproduce figures and table, please unzip `aggregated_data.csv.zip` first and then run 
+If you wish to reproduce figures and table, please unzip [aggregated_data.csv.zip](aggregated_data.csv.zip) first and then run 
 [Process MARL results.ipynb](Process%20MARL%20results.ipynb) jupyter notebook file.
 
 
