@@ -8,8 +8,9 @@
 
 **To DO:**
 
-- [ ] Update checkpoints
+- [ ] Update best checkpoints in CoPO repo
 - [ ] Deliver this page to other researchers that are looking for this
+- [ ] Update training performance when train with 5M steps
 
 ## Training Results
 
@@ -32,7 +33,8 @@ Success rate table:
 ## Radar Figure
 
 
-Please refer to XXXX notebook for code on how to draw radar figure.
+Please refer to [Process and plot evaluate results (1M steps).ipynb](Process and plot evaluate results (1M steps).ipynb) and
+[Process and plot evaluate results (5M steps).ipynb](Process and plot evaluate results (5M steps).ipynb) notebooks for code on how to draw radar figure.
 
 If we run IPPO, CCPPO and CoPO for 1M environment steps:
 
@@ -67,7 +69,10 @@ The compressed training log that you can use to draw learning curves are provide
 https://github.com/metadriverse/metadrive-benchmark/releases/download/asset-marl/training_curves.zip
 
 
-Due to the huge volumn of the training results, we can not provide the raw training results and intermediate checkpoints. We select the best checkpoints and upload them to:  XXXX  You can also find them in the CoPO repo where you can XXXX them with XXXX.
+Due to the huge volumn of the training results, we can not provide the raw training results and intermediate checkpoints.
+
+
+(WIP) We select the best checkpoints and upload them to:  XXXX  You can also find them in the CoPO repo where you can XXXX them with XXXX.
 
 
 
