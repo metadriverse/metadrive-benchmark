@@ -34,14 +34,17 @@ Success rate table:
 
 Please refer to XXXX notebook for code on how to draw radar figure.
 
-If we run IPPO, CCPPO and CoPO for 1M environment steps (2M for CL):
+If we run IPPO, CCPPO and CoPO for 1M environment steps:
 
-![](figs/xxx.png)
+![](figs/evaluate_result_1m.png)
 
 If we run IPPO, CCPPO and CoPO for 5M environment steps:
 
-![](figs/xxx.png)
+![](figs/evaluate_result_5m.png)
 
+> **Note**
+> Curriculum Learning evaluationg results are not included since we only save the top 5 checkpoints according to the *training success rate*. However, this leads to poor evaluate results since the best training success rate happens in the begining of CL training but the checkpoints at that time have poor generalizability in the "full" environment. You should probabily run `train_all_cl.py` with the argument `keep_checkpoints_num` set to None.
+> 
 
 ## Training and Evaluation Scripts
 
@@ -56,7 +59,7 @@ Please refer to [CoPO repo](https://decisionforce.github.io/CoPO/) for more info
 
 ## Data
 
-The compressed evaluation results that you can use to draw figure are provided in: XXXX
+The compressed evaluation results that you can use to draw figure are provided in: [train1m_evaluate_results.csv](train1m_evaluate_results.csv) and [train5m_evaluate_results.csv](train5m_evaluate_results.csv)
 
 You can download the raw evaluation results here:  https://github.com/metadriverse/metadrive-benchmark/releases/tag/asset-marl
 
