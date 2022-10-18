@@ -22,10 +22,16 @@ Success rate table:
 |                    | Bottleneck    | Tollgate      | Intersection   | Roundabout   | Parking Lot   | PG Map        |
 |:-------------------|:--------------|:--------------|:---------------|:-------------|:--------------|:--------------|
 | IPPO               | 24.04 (18.74) | 4.41 (2.56)   | 71.91 (5.27)   | 66.43 (4.99) | 16.98 (5.90)  | 81.81 (6.50)  |
-| CCPPO (Mean Field) | 14.60 (11.24) | 14.86 (16.47) | 70.79 (6.29)   | 71.03 (5.45) | 20.66 (3.47)  | 79.56 (3.92)  |
 | CCPPO (Concat)     | 19.55 (15.80) | 3.53 (1.92)   | 75.67 (3.18)   | 67.82 (4.09) | 12.01 (7.52)  | 80.21 (3.58)  |
-| CL                 | 78.80 (3.79)  | 37.90 (29.93) | 81.57 (2.95)   | 82.34 (3.35) | 31.16 (14.36) | 77.82 (24.85) |
+| CCPPO (Mean Field) | 14.60 (11.24) | 14.86 (16.47) | 70.79 (6.29)   | 71.03 (5.45) | 20.66 (3.47)  | 79.56 (3.92)  |
+| CL                 | 60.60 (22.18) | 37.29 (30.65) | 75.68 (6.24)   | 72.28 (5.45) | 21.26 (10.15) | 71.16 (23.69) |
 | CoPO               | 47.39 (19.49) | 27.19 (25.63) | 79.47 (4.97)   | 72.82 (6.73) | 19.51 (5.59)  | 83.40 (3.13)  |
+
+> **Note**
+> The success rate here is computed as follows: for each algo and each env, we compute the maximum training success rate
+> for each random seed. Please note that we need to discard training record of CL in the first 1.5M steps before computing
+> the success rate. This is because in the first three stages of CL, the environment is much easier than it should be and
+> thus the training rate at that time is not accurate.
 
 
 ## Radar Figure
