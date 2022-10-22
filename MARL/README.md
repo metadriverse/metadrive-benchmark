@@ -64,16 +64,12 @@ To draw evaluation resutls, please refer to `Process and plot evaluation results
 
 ## Data
 
-The compressed evaluation results that you can use to draw figure are provided in: [evaluate_results.csv](evaluate_results.csv).
-
-You can download the raw evaluation results here:  https://github.com/metadriverse/metadrive-benchmark/releases/tag/asset-marl
+The compressed evaluation results that you can use to draw figure are provided in: https://github.com/metadriverse/metadrive-benchmark/releases/download/asset-marl/formal_evaluate_results.zip
 
 The compressed training log that you can use to draw learning curves are provided here: 
 https://github.com/metadriverse/metadrive-benchmark/releases/download/asset-marl/training_curves.zip
 
-
-Due to the huge volumn of the training results, we can not provide the raw training results and intermediate checkpoints.
-
+Due to the huge volume of the training results, we can not provide the raw training results and intermediate checkpoints.
 
 (WIP) We select the best checkpoints and upload them to:  XXXX  You can also find them in the CoPO repo where you can XXXX them with XXXX.
 
