@@ -2,7 +2,7 @@
 
 ```diff
 Changelog:
-+ July 7, 2022: Initialize this project and upload MARL results.
++ October 22, 2022: Upload MARL results!
 ```
 
 
