@@ -70,7 +70,10 @@ https://github.com/metadriverse/metadrive-benchmark/releases/download/asset-marl
 
 Due to the huge volume of the training results, we can not provide the raw training results and intermediate checkpoints.
 
-(WIP) We select the best checkpoints and upload them to:  XXXX  You can also find them in the CoPO repo where you can XXXX them with XXXX.
+
+## Best checkpoints
+
+We provide the best checkpoints for each environment and each algorithm. Given the evaluation results CSV file, you can find your best checkpoint by following the code in `Find the best checkpoint.ipynb`. The best checkpoints are zipped and uploaded to XXX. Please refer to XXX in CoPO repo for the code to run the checkpoints.
 
 
 
