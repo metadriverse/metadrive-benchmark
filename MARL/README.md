@@ -6,9 +6,6 @@
 * Training code: [CoPO repo](https://github.com/decisionforce/CoPO)
 * Related project: [CoPO webpage](https://decisionforce.github.io/CoPO/)
 
-**To DO:**
-
-- [ ] Update best checkpoints in CoPO repo
 
 ## Training Results
 
